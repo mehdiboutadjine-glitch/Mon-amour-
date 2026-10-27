@@ -4,7 +4,7 @@
   Important : ce PIN côté navigateur est une surprise ludique, pas une vraie sécurité.
 */
 const CONFIG = {
-  pin: "14/02/2025",
+  pin: "24/08/2026",
   musicUrl: "", // Colle ici un lien vers ta chanson (YouTube/Spotify, par exemple), si tu veux.
   gifts: [
     {id:"cadeau1", title:"Un bouquet pour toi", emoji:"🌹", message:"Mon amour,\n\nSi je pouvais, je t’offrirais une rose pour chaque pensée tendre que j’ai pour toi. En attendant, voici ce petit bouquet symbolique, avec toute la douceur que tu mérites.\n\nTu rends les jours ordinaires plus beaux. 💗"},
