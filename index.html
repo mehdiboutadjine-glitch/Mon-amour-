@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -6,69 +7,83 @@
 <meta name="theme-color" content="#fff1f6">
 <title>Pour Mon amour 💗</title>
 <style>
-:root{--pink:#e77ca8;--deep:#a83e70;--pale:#fff1f6;--ink:#543044;--white:#fff}
-*{box-sizing:border-box}body{margin:0;font-family:Georgia,'Times New Roman',serif;background:linear-gradient(145deg,#fff8fb,#ffe7f0);color:var(--ink);min-height:100vh}
-main{width:min(920px,92%);margin:auto;padding:32px 0 54px}.hero{text-align:center;padding:24px 12px 20px}
-.eyebrow{letter-spacing:.18em;text-transform:uppercase;font:12px Arial,sans-serif;color:var(--deep)}
-h1{font-size:clamp(2.2rem,7vw,4.5rem);font-weight:normal;margin:12px 0;color:var(--deep)}h2{font-weight:normal;color:var(--deep)}
-p{line-height:1.7}.card{background:#ffffffd9;border:1px solid #f3c5d7;border-radius:24px;padding:clamp(18px,4vw,32px);box-shadow:0 12px 35px #b65b7b14;margin:18px 0}
-.center{text-align:center}.flower{font-size:3rem}.muted{color:#986a80;font:13px Arial,sans-serif}
-input,button,textarea{font:16px Arial,sans-serif;border-radius:12px;padding:13px 15px;border:1px solid #e7b2c9}
-input,textarea{width:100%;background:#fffafd;color:var(--ink)}button{background:var(--pink);color:white;border:0;cursor:pointer;font-weight:700}button:hover{background:var(--deep)}button.secondary{background:#fff;color:var(--deep);border:1px solid #e7b2c9}
-.row{display:flex;gap:10px;flex-wrap:wrap}.row>*{flex:1}.hidden{display:none!important}.giftgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
-.gift{border:1px solid #f0bfd2;border-radius:20px;padding:20px;text-align:center;background:#fff9fc}.gift button{width:100%;margin-top:12px}.gift .emoji{font-size:2.5rem}
-.notice{padding:12px 14px;border-radius:12px;background:#fff0f6;font:13px/1.5 Arial,sans-serif}.editarea{margin-top:20px}.footer{text-align:center;color:#a36e85;font:12px Arial,sans-serif;padding:20px}
-#message{white-space:pre-wrap}.small{font-size:13px}
+:root{--pink:#e77ca8;--deep:#a83e70;--ink:#543044}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,'Times New Roman',serif;background:linear-gradient(145deg,#fff8fb,#ffe7f0);color:var(--ink);min-height:100vh}
+main{width:min(920px,92%);margin:auto;padding:24px 0 45px}
+.hero{text-align:center;padding:22px 10px}
+.eyebrow{letter-spacing:.15em;text-transform:uppercase;font:12px Arial,sans-serif;color:var(--deep)}
+h1{font-size:clamp(2.2rem,7vw,4.2rem);font-weight:normal;margin:12px 0;color:var(--deep)}
+h2{font-weight:normal;color:var(--deep)}
+p{line-height:1.7}
+.card{background:#ffffffdf;border:1px solid #f3c5d7;border-radius:22px;padding:clamp(18px,4vw,30px);box-shadow:0 12px 35px #b65b7b14;margin:18px 0}
+.center{text-align:center}
+.flower{font-size:2.8rem}
+.muted{color:#986a80;font:13px Arial,sans-serif}
+input,button{font:16px Arial,sans-serif;border-radius:12px;padding:13px 15px;border:1px solid #e7b2c9}
+input{width:100%;background:#fffafd;color:var(--ink)}
+button{background:var(--pink);color:white;border:0;cursor:pointer;font-weight:700}
+button.secondary{background:#fff;color:var(--deep);border:1px solid #e7b2c9}
+.hidden{display:none!important}
+.giftgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(205px,1fr));gap:14px}
+.gift{border:1px solid #f0bfd2;border-radius:20px;padding:20px;text-align:center;background:#fff9fc}
+.gift button{width:100%;margin-top:12px}
+.emoji{font-size:2.5rem}
+.notice{padding:12px 14px;border-radius:12px;background:#fff0f6;font:14px/1.6 Arial,sans-serif}
+.notice a{color:var(--deep);font-weight:bold}
+.footer{text-align:center;color:#a36e85;font:12px Arial,sans-serif;padding:20px}
+#message{white-space:pre-wrap}
+.small{font-size:13px}
 </style>
 </head>
 <body>
 <main>
 <section class="hero">
-  <div class="eyebrow">Une petite surprise rien que pour toi</div>
-  <div class="flower">🌷💗🌷</div>
-  <h1>Pour Mon amour</h1>
-  <p>Il y a des dates qu’on garde dans le cœur…<br>et des petites attentions qui disent ce que les mots n’arrivent pas toujours à dire.</p>
+<div class="eyebrow">Une petite surprise rien que pour toi</div>
+<div class="flower">🌷💗🌷</div>
+<h1>Pour Mon amour</h1>
+<p>Il y a des dates qu’on garde dans le cœur…<br>
+et des petites attentions qui disent ce que les mots n’arrivent pas toujours à dire.</p>
 </section>
 
 <section class="card center" id="lock">
-  <h2>🔐 Notre date secrète</h2>
-  <p>Entre la date qui représente le début de notre histoire.</p>
-  <form id="pinForm">
-    <input id="pin" type="text" inputmode="numeric" autocomplete="off" placeholder="JJ/MM/AAAA" aria-label="Code secret" required>
-    <p><button type="submit">Ouvrir ma surprise 💌</button></p>
-  </form>
-  <p id="error" class="small" style="color:#a32659" aria-live="polite"></p>
-  <p class="muted">La date est personnalisable dans le fichier <b>script.js</b>.</p>
+<h2>🔐 Notre date secrète</h2>
+<p>Entre la date qui représente le début de notre histoire.</p>
+<form id="pinForm">
+<input id="pin" type="text" inputmode="numeric" autocomplete="off" placeholder="JJ/MM/AAAA" aria-label="Code secret" required>
+<p><button type="submit">Ouvrir ma surprise 💌</button></p>
+</form>
+<p id="error" class="small" style="color:#a32659" aria-live="polite"></p>
+<p class="muted">Notre date secrète 💗</p>
 </section>
 
 <section id="welcome" class="hidden">
-  <div class="card center">
-    <div class="flower">💌</div><h2>Bienvenue, Mon amour</h2>
-    <p>J’ai préparé trois petits cadeaux pour toi. Ouvre-les un par un, prends ton temps… chacun cache un petit morceau de mon cœur.</p>
- <div id="musicLine" class="notice">
-  🎵 Notre chanson : Ma meilleure — La Fouine &amp; Zaho
-  <p>
-    <a href="https://www.youtube.com/results?search_query=La+Fouine+Zaho+Ma+meilleure"
-       target="_blank" rel="noopener">
-      ❤️ Écouter notre chanson
-    </a>
-  </p>
+<div class="card center">
+<div class="flower">💌</div>
+<h2>Bienvenue, Mon amour</h2>
+<p>J’ai préparé trois petits cadeaux pour toi. Ouvre-les un par un, prends ton temps… chacun cache un petit morceau de mon cœur.</p>
+<div id="musicLine" class="notice">
+🎵 Notre chanson : Ma meilleure — La Fouine &amp; Zaho
+<p><a href="https://www.youtube.com/results?search_query=La+Fouine+Zaho+Ma+meilleure" target="_blank" rel="noopener noreferrer">❤️ Écouter notre chanson</a></p>
 </div>
-  <div class="giftgrid" id="gifts"></div>
-  <section class="card hidden" id="giftView">
-    <div class="center"><div class="flower" id="giftEmoji">🌹</div><h2 id="giftTitle">Un cadeau pour toi</h2></div>
-    <p id="message"></p>
-    <div class="center"><button class="secondary" id="back">Retour aux trois cadeaux</button></div>
-  </section>
-  <section class="card editarea">
-    <h2>✍️ Personnaliser les cadeaux</h2>
-    <p class="muted">Modifie les messages ci-dessous, puis clique sur « Enregistrer ». Les modifications restent dans ce navigateur. Pour les intégrer à la version en ligne, modifie aussi <b>script.js</b>.</p>
-    <div id="editors"></div>
-    <div class="row"><button id="save">Enregistrer les messages</button><button class="secondary" id="reset">Réinitialiser</button></div>
-    <p id="saved" class="small" aria-live="polite"></p>
-  </section>
+</div>
+
+<div class="giftgrid" id="gifts"></div>
+
+<section class="card hidden" id="giftView">
+<div class="center">
+<div class="flower" id="giftEmoji">🌹</div>
+<h2 id="giftTitle">Un cadeau pour toi</h2>
+</div>
+<p id="message"></p>
+<div class="center">
+<button class="secondary" id="back" type="button">Retour aux trois cadeaux</button>
+</div>
 </section>
+</section>
+
 <div class="footer">Fait avec tendresse 🌸 · Pour Mon amour</div>
 </main>
 <script src="script.js"></script>
-</body></html>
+</body>
+</html>
