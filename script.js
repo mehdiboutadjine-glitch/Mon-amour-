@@ -5,7 +5,7 @@
 */
 const CONFIG = {
   pin: "24/08/2026",
-  musicUrl: "", // Colle ici un lien vers ta chanson (YouTube/Spotify, par exemple), si tu veux.
+  musicUrl: "https://www.youtube.com/watch?v=G_5pzLWjQjY", // Colle ici un lien vers ta chanson (YouTube/Spotify, par exemple), si tu veux.
   gifts: [
     {id:"cadeau1", title:"Un bouquet pour toi", emoji:"🌹", message:"Mon amour,\n\nSi je pouvais, je t’offrirais une rose pour chaque pensée tendre que j’ai pour toi. En attendant, voici ce petit bouquet symbolique, avec toute la douceur que tu mérites.\n\nTu rends les jours ordinaires plus beaux. 💗"},
     {id:"cadeau2", title:"Quelques mots du cœur", emoji:"💌", message:"Mon amour,\n\nIl y a mille façons de dire « je t’aime », mais aucune ne me semble assez grande pour tout ce que je ressens. Alors je veux simplement te rappeler que ta présence compte énormément pour moi.\n\nMerci d’être une si belle partie de mon histoire. 🌷"},
